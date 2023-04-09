@@ -1,40 +1,38 @@
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript } from "react-icons/si";
-import { FaGit, FaPython } from "react-icons/fa";
-import {
-  FaDocker,
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaNode,
-  FaReact,
-} from "react-icons/fa";
+import imgHTML from "../public/static/img/stack/html.svg";
+import imgCSS from "../public/static/img/stack/css.svg";
+import imgJS from "../public/static/img/stack/js.svg";
+import imgNode from "../public/static/img/stack/node.svg";
+import imgStyled from "../public/static/img/stack/styled.svg";
+import imgReact from "../public/static/img/stack/react.svg";
+import { SiDjango, SiPostgresql, SiPython, SiTypescript } from "react-icons/si";
 
 export const stackData = [
   {
     title: "HTML",
-    img: FaHtml5,
+    img: imgHTML,
   },
   {
     title: "CSS",
-    img: FaCss3Alt,
+    img: imgCSS,
   },
   {
     title: "JS",
-    img: FaJs,
+    img: imgJS,
   },
-  { title: "TypeScript", img: SiTypescript },
   {
     title: "Node JS",
-    img: FaNode,
+    img: imgNode,
+  },
+  {
+    title: "Styled Components",
+    img: imgStyled,
   },
   {
     title: "React",
-    img: FaReact,
+    img: imgReact,
   },
-  { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
-  { title: "PostgreSQL", img: SiPostgresql },
-  { title: "Git", img: FaGit },
-  { title: "Python", img: FaPython },
+  { title: "Postgresql", img: SiPostgresql },
+  { title: "TypeScript", img: SiTypescript },
+  { title: "Python", img: SiPython },
+  { title: "Django", img: SiDjango }
 ];
